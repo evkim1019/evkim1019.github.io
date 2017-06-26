@@ -60,7 +60,7 @@ hr {
 .cta a{
 	border: 2px solid #fff;
 	background: #000;
-	padding: 15px 50px;
+	padding: 1em 3em;
 }
 .cta a:hover {
 	border: 2px solid #000;
@@ -73,6 +73,7 @@ hr {
 
 .content ul {
 	padding:0;
+	margin:0;
 	align-content: center;
 
 }
@@ -98,6 +99,111 @@ hr {
 
 
 
+/*------- Work inside page -------*/
+#headtop {
+	display: inline-block;
+	background: #000;
+	width: 100%;
+	padding: 1em;
+	margin: 0;
+	position: fixed;
+	z-index: 999;
+}
+#headtop span img{
+	width: 1em;
+}
+#headtop span{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 36px;
+	color: #fff;
+	margin-right: 0.3em;
+	vertical-align: middle;
+}
+#headtop .cta {
+	float: right;
+	display: inline-block;
+	margin:0 1em 0 0;
+	font-size: 12px;
+}
+
+
+.project {
+	padding: 7em 0 2em 0;
+	text-align: center;
+}
+.project h1 {
+	color: #000;
+}
+.project p{
+	color: #000;
+	text-shadow: none;
+	margin-top: -1em;
+	font-family: times;
+	font-style: italic;
+}
+.full-content ul {
+	margin:0 auto;
+	padding:0;
+	align-content: center;
+
+}
+.full-content li {
+	width:47.6%;
+	list-style: none;
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	padding: 0;
+	margin: 1%;
+	vertical-align: top;
+	line-height: 2em;
+}
+.full-content li>img{
+	width: 100%;
+}
+.full-content li>span{
+	font-family: times;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+
+.list {
+	margin-top: 3em;
+}
+.list p {
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: none;
+	color: #000;
+	text-align: center;
+	margin: 0;
+}
+.list ul {
+	margin:0 auto;
+	padding: 0;
+	align-content: center;
+}
+.list ul a:hover {
+	opacity: .5;
+}
+.list li {
+	width: 17.64%;
+	list-style: none;
+	background: #fff;
+	color: #000;
+	display: inline-block;
+	padding: 0;
+	margin: 1%;
+}
+.list li>img {
+	width: 100%;
+}
+
+
+
+
+
 footer {
 	margin-top: 80px;
 	text-shadow: none;
@@ -109,4 +215,7 @@ footer p{
 	display: inline-block;
 	padding: 10px;
 	font-size: 14px;
+}
+footer p:hover {
+	opacity: .5;
 }

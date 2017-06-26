@@ -1,0 +1,46 @@
+body{
+	background-color: #666;
+	margin: 0 auto;
+	padding: 2em;
+	font-size: 18px;
+}
+
+header {
+	background-color: #ffed74;
+	border: 1px #000 solid;
+	padding: .5em;
+}
+nav {
+	background-color: #e8c66a;
+	border: 1px #000 solid;
+	padding: .5em;
+}
+#recent {
+	background-color: #ffe2b8;
+	border: 1px #f00 solid;
+	padding: .5em;
+}
+aside {
+	background-color: #ffc675;
+	border: 1px #ff0 solid;
+	padding: .5em;
+	width: 47.1%;
+	display: inline-block;
+}
+aside img {
+	width:100%;
+}
+article {
+	background-color: #e89c6c;
+	border: 1px #fff solid;
+	padding: .5em;
+	width: 47.1%;
+	vertical-align: top;
+	display: inline-block;
+}
+footer {
+	background-color: #ff957e;
+	border: 1px #000 solid;
+	padding: .5em;
+}
+
