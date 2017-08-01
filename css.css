@@ -1,0 +1,72 @@
+body, p, a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+}
+li {
+	list-style: none;
+}
+
+body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+aside {
+	width: 25%;
+	float: left;
+	background-color: #ededed;
+	height: 100vh;
+	position: fixed;
+}
+aside a{
+	font-size: 1.5em;
+	line-height: 2em;
+	display: block;
+	padding: 25px 0 0 25px;
+	margin: 0;
+}
+
+article {
+	width: 75%;
+	float: right;
+}
+article ul {
+	padding: 25px;
+	margin: 0;
+}
+article li {
+	margin-top: 60px;
+	line-height: 1.5em;
+}
+article li:first-child {
+	margin-top: 0;
+}
+article li img {
+	width: 100%;
+}
+
+footer {
+	clear: both;
+	width: 75%;
+	padding-left: 25%;
+	margin: 0;
+	z-index: 9;
+	background-color: #999;
+}
+
+footer section {
+	width: 48%;
+	display: inline-block;
+	text-align: center;
+	padding: 20px 0;
+}
